@@ -1,0 +1,8 @@
+# Copy to terraform.tfvars (git-ignored) and adapt.
+region                    = "eu-west-3"
+account_id                = "123456789012"
+environment               = "production"
+cloudtrail_log_group_name = "aws-controltower/CloudTrailLogs"
+alert_emails              = ["security@example.com"]
+archive_bucket_name       = null
+remediation_dry_run       = true
